@@ -1,0 +1,19 @@
+{
+  "name": "hreflang",
+  "version": "1.0",
+  "description": {
+    "en": "HrefLang",
+    "ru": "HrefLang",
+    "uk": "HrefLang"
+  },
+  "url": "https://github.com/pytsite/plugin-hreflang",
+  "author": {
+    "name": "Alexander Shepetko",
+    "email": "a@shepetko.com",
+    "url": "https://shepetko.com"
+  },
+  "requires": {
+    "packages": [],
+    "plugins": []
+  }
+}
