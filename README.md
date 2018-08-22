@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 1.2 (2018-08-22)
+
+Links generation on all pages enabled by default.
+
+
 ### 1.1 (2017-12-13)
 
 Support for PytSite-7.0.

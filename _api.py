@@ -2,7 +2,7 @@
 """
 from pytsite import lang as _lang, router as _router, threading as _threading
 
-__author__ = 'Alexander Shepetko'
+__author__ = 'Oleksandr Shepetko'
 __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
 
@@ -37,6 +37,5 @@ def get_all() -> dict:
 def reset():
     _links[_threading.get_id()] = {}
 
-    if _router.is_base_url():
-        for lng in _lang.langs(False):
-            add(lng, _router.base_url(lng))
+    for lng in _lang.langs(False):
+        add(lng, _router.current_url(lang=lng))
