@@ -4,6 +4,13 @@
 ## Changelog
 
 
+### 1.3 (2019-05-02)
+
+- New API function `remove()` added.
+- `add()` API functions renamed to `put()`.
+- Plugin load hook fixed.
+
+
 ### 1.2 (2018-08-22)
 
 Links generation on all pages enabled by default.

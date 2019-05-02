@@ -5,10 +5,10 @@ __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
 
 # Public API
-from ._api import add, get, get_all, reset
+from ._api import put, get, get_all, remove, reset
 
 
-def plugin_load():
+def plugin_load_wsgi():
     from pytsite import events, metatag, lang, router
 
     if lang.langs(False):
