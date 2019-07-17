@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 1.3.1 (2019-07-17)
+
+Support of all HTTP request methods fixed. 
+
+
 ### 1.3 (2019-05-02)
 
 - New API function `remove()` added.

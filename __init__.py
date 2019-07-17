@@ -17,5 +17,6 @@ def plugin_load_wsgi():
                 if lng != lang.get_current():
                     metatag.t_set('link', rel='alternate', href=href, hreflang=lng)
 
-        router.on_dispatch(reset)
+        router.on_dispatch(reset, method='*')
+        router.on_xhr_dispatch(reset, method='*')
         events.listen('pytsite.metatag@dump_all', metatag_dump_all_eh)
